@@ -1,0 +1,153 @@
+/*
+Theme Name: Seguridad Digital
+Theme URI: https://seguridad-digital.org
+Author: @PhiRequiem
+Author URI: https://twitter.com/PhiRequiem
+Description: Tema para el sitio WP de #SeguridadDigital
+Version: 1.0
+Tags: seguridaddigital, light
+*/
+
+body {
+	background-image: url(./images/bg-gray-2.jpg);
+	padding-top: 56px;
+}
+a, a:hover, .page-link, .page-link:hover {
+	color: #53acb6;
+	text-decoration: none;
+}
+.navbar-brand {
+	/*margin-right: -5px;*/
+}
+.bg-blue-seg {
+    /* background-image: url(./images/bg-blue.jpg); */
+    /* background-color: #28a1bb; */
+	
+background: rgba(237,30,120,1);
+background: -moz-linear-gradient(-45deg, rgba(237,30,120,1) 0%, rgba(131,71,221,1) 47%, rgba(23,163,184,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(237,30,120,1)), color-stop(47%, rgba(131,71,221,1)), color-stop(100%, rgba(23,163,184,1)));
+background: -webkit-linear-gradient(-45deg, rgba(237,30,120,1) 0%, rgba(131,71,221,1) 47%, rgba(23,163,184,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(237,30,120,1) 0%, rgba(131,71,221,1) 47%, rgba(23,163,184,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(237,30,120,1) 0%, rgba(131,71,221,1) 47%, rgba(23,163,184,1) 100%);
+background: linear-gradient(135deg, rgba(237,30,120,1) 0%, rgba(131,71,221,1) 47%, rgba(23,163,184,1) 100%);
+
+    box-shadow: 0 0 4px rgba(0,0,0, 0.5);
+}
+.card-home {
+	height: 216px;
+}
+.overf-h {
+	height: 216px;
+	overflow:hidden;
+}
+.home-post .img-fluid {
+    height: 216px;
+}
+.home-post a, .home-post a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.home-post .card-text {
+  font-size: 0.9em;
+}
+
+.home-post .card-img-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.home-post .card-footer a {
+	color: #868e96;
+}
+.home-post .card-footer a:hover {
+	color: #a5aaaf;
+}
+.page-item.active .page-link {
+    background-color: #53acb6;
+    border-color: #53acb6;
+}
+
+/* footer */
+.footer_top {
+	background-color: #e6e6e6;
+}
+.footer {
+	background-color: #727f80;
+    padding: 0 0 20px 0;
+}
+.pgp {
+    color: white;
+}
+.opa {
+    color: rgba(255,255,255, 0.4);
+}
+
+/*Utilidades*/
+.small-gutters {
+	margin-right:-5px;
+	margin-left:-5px;
+}
+.small-gutters > .col, .small-gutters > [class*=col-] {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+/*Media querys*/
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/*Iconos iconmoon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./css/fonts/icomoon.eot?qvol07');
+  src:  url('./css/fonts/icomoon.eot?qvol07#iefix') format('embedded-opentype'),
+    url('./css/fonts/icomoon.ttf?qvol07') format('truetype'),
+    url('./css/fonts/icomoon.woff?qvol07') format('woff'),
+    url('./css/fonts/icomoon.svg?qvol07#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e986";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+  content: "\eab0";
+}
